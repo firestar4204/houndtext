@@ -14,7 +14,7 @@ autom4te.cache
 /compile
 /config.cache
 /config.guess
-/config.h.in
+config.h.in
 /config.log
 /config.status
 /config.sub
@@ -23,7 +23,8 @@ autom4te.cache
 /depcomp
 /install-sh
 /missing
-/stamp-h1
+stamp-h1
+config.h
 
 /ltmain.sh
 
@@ -36,3 +37,56 @@ m4/ltversion.m4
 m4/lt~obsolete.m4
 
 Makefile
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.dis
+
+# MacOS specific files
+.DS_Store
+
+src/houndtext
+
+*~
+
